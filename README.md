@@ -36,3 +36,9 @@
 
 > 该插件作者已经停止更新，个人内核汉化
 
+# 多人1V1练枪服务器(multi1v1)
+
+源仓库 [csgo-multi-1v1](https://github.com/splewis/csgo-multi-1v1/tree/master/cfg/sourcemod/multi1v1)
+
+> 该插件自带多国语言翻译，请移步至源仓库
+
