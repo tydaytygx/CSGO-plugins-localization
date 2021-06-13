@@ -38,7 +38,13 @@
 
 # 多人1V1练枪服务器(multi1v1)
 
-源仓库 [csgo-multi-1v1](https://github.com/splewis/csgo-multi-1v1/tree/master/cfg/sourcemod/multi1v1)
+源仓库 [csgo-multi-1v1](https://github.com/splewis/csgo-multi-1v1)
+
+> 该插件自带多国语言翻译，请移步至源仓库
+
+# 皮肤插件(playerskin)
+
+源仓库 [playerskin](https://github.com/safra36/PlayerSkin)
 
 > 该插件自带多国语言翻译，请移步至源仓库
 
