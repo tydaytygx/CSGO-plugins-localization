@@ -32,7 +32,7 @@
 
 # 满十比赛服(smp)
 
-源帖 [Simple match plugin for CS:GO](Simple match plugin for CS:GO)
+源帖 [Simple match plugin for CS:GO](https://forums.alliedmods.net/showthread.php?p=2404215)
 
 > 该插件作者已经停止更新，个人内核汉化
 
