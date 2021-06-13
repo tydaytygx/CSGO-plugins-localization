@@ -6,9 +6,9 @@
 
 
 
-# 躲猫猫(probhunt) 
+# 躲猫猫(prophunt) 
 
-[probhunt](https://github.com/olavim/sm-PropHunt)
+[prophunt](https://github.com/olavim/sm-PropHunt)
 
 > 该收录仓库已经停止更新，个人内核汉化。
 >
