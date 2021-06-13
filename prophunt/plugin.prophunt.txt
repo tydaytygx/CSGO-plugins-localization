@@ -1,0 +1,330 @@
+"Phrases"
+{
+	
+	"Title Select Model"
+	{
+		"en"			"Select Model"
+		"chi"           "选择物品"
+	}
+	
+	"Model Changed"
+	{
+		"en"			"You're now a"
+		"chi"           "你现在是"
+	}
+
+	"Modelmenu Disabled"
+	{
+		"en"			"You can't change your model anymore in this round."
+		"chi"           "本回合你没法再换物品啦"
+	}
+
+	"Did not choose model"
+	{
+		"en"			"You didn't choose a model. Autoassigning..."
+		"chi"           "你没有选择物品. 自动选择中"
+	}
+	
+	"Print to console"
+	{
+		"en"			"Please print this to console:"
+		"chi"           "请将此句输入控制台"
+	}
+	
+	"Only terrorists can select models"
+	{
+		"en"			"Only terrorists can select models."
+		"chi"           "只有T阵营能选择物品"
+	}
+	
+	"Only terrorists can use"
+	{
+		"en"			"Only terrorists can use this command."
+		"chi"           "你没有选择物品. 自动选择中"
+	}
+	
+	"CT team is full"
+	{
+		"en"			"CT team is full!"
+		"chi"			"CT阵营满人啦"
+	}
+
+	"Type again for ego"
+	{
+		"en"			"Type /tp again to switch back to ego perspective."
+		"chi"			"再次输入/tp来切换到自身视角"
+	}
+
+	"Wait for t to hide"
+	{
+		"#format"		"{1:d}"
+		"en"			"Give the terrorists {1} seconds to hide."
+		"chi"			"T现在有{1}秒时间躲猫猫"
+	}
+
+	"seconds to hide"
+	{
+		"#format"		"{1:d}"
+		"en"			"You have {1} seconds to hide. Find a place where you fit into the background!"
+		"chi"			"你有{1}秒躲猫猫. 找个合适的地儿藏起来吧！"
+	}
+
+	"Go search"
+	{
+		"en"			"You don't think all terrorists are hidden well? Go find them!"
+		"chi"			"他们肯定藏得漏洞百出吧？找出他们！"
+	}
+
+	"whistled"
+	{
+		"en"			"whistled!"
+		"chi"			"口哨！"
+	}
+    
+	"whistles left"
+	{
+		"#format"		"{1:d}"
+		"en"			"You are allowed to whistle {1} more times."
+		"chi"			"你还有{1}次吹口哨的机会"
+	}
+
+	"Whistling not allowed yet"
+	{
+		"en"			"Whistling is not allowed yet."
+		"chi"			"还不能吹口哨哟"
+	}
+
+	"T type /whistle"
+	{
+		"en"			"Terrorists may whistle to give a hint. Type \"/whistle\" in chat!"
+		"chi"			"T阵营可以在聊天框输入\"/whistle\"来吹口哨嘲讽"
+	}
+	
+	"whistle limit exceeded"
+	{
+		"#format"		"{1:d}"
+		"en"			"You already used your {1} whistles this round."
+			"chi"			"T阵营可以在聊天框输入\"/whistle\"来吹口哨嘲讽"
+	}
+
+	"T type /tp"
+	{
+		"en"			"Type \"/tp\" in chat to toggle thirdperson view!"
+		"chi"			"输入\"/tp\"来切换第三人称视角"
+	}
+
+	"Type !hide"
+	{
+		"en"			"Type \"/hide\" in chat to open the model menu."
+		"chi"			"输入\"/hide\"来打开物品菜单"
+	}
+
+	"Spectator Cheater"
+	{
+		"en"			"has been moved to spectator because of bad cvars."
+		"chi"			"因使用破坏性指令被移动到观察者"
+		
+	}
+
+	"Kick bad cvars"
+	{
+		"en"			"You have to change the above cvars (console) to play on this server."
+		"chi"			"要想在此服务器游玩请改变你参数（控制台）"
+	}
+
+	"protected cvar"
+	{
+		"en"			"This cvar is protected. Leave it alone!"
+		"chi"			"本参数受保护. 别碰她"
+	}
+
+	"got frags"
+	{
+		"#format"		"{1:d}"
+		"en"			"All surviving hiders got {1} points. Good job!"
+		"chi"			"所有幸存者获得 {1} 点分数. 干得好！"
+	}
+
+	"Hider Freezed"
+	{
+		"en"			"You're frozen in place."
+		"chi"			"已冻结"
+	}
+
+	"Hider Unfreezed"
+	{
+		"en"			"You're able to move again."
+		"chi"			"你又可以动啦"
+	}
+
+	"HnS Help"
+	{
+		"en"			"PropHunt: Help"
+		"chi"			"躲猫猫：帮助"
+	}
+
+	"Running HnS"
+	{
+		"en"			"This server is running PropHunt."
+		"chi"			"欢迎来到躲猫猫服务器"
+	}
+
+	"Instructions 1"
+	{
+		"en"			"Terrorists choose a model and hide, CTs search and kill them."
+		"chi"			"T阵营选择物品躲猫猫，CT阵营搜寻T阵营并做掉他们"
+	}
+
+	"Available Commands"
+	{
+		"en"			"Available Chat Commands"
+		"chi"			"可用的聊天命令"
+	}
+
+	"Howto CT"
+	{
+		"en"			"How to play as seeker?"
+		"chi"			"如何抓人"
+	}
+
+	"Instructions CT 1"
+	{
+		"en"			"Seekers have to find the hiders, who could be everything from an oil drum to a pot plant and kill them."
+		"chi"			"CT阵营要找到躲藏者，从油桶到盆栽都可能是，做掉他们"
+	}
+
+	"Instructions CT 2"
+	{
+		"#format"		"{1:d}"
+		"en"			"Be careful with your shootings! You may loose {1} HP per shot."
+		"chi"			"射的时候要小心哟！每射一次都会损失 {1} 点血量"
+	}
+
+	"Instructions CT 3"
+	{
+		"#format"		"{1:d},{2:d}"
+		"en"			"You gain {1} HP on hider hurt and {2} HP when killing a hider. Always keep an eye behind you!"
+		"chi"			"CT阵营对躲藏者造成伤害时获得 {1} 点血量，干掉躲藏者获得 {2} HP，留心观察四周！"
+	}
+
+	"Howto T"
+	{
+		"en"			"How to play as hider?"
+		"chi"			"如何躲猫猫"
+	}
+
+	"Instructions T 1"
+	{
+		"en"			"Hiders choose a model which is common on the current map and should search a place they blend in best."
+		"chi"			"要想在此服务器游玩请改变你参数（控制台）"
+	}
+
+	"Instructions T 2"
+	{
+		"en"			"Keep moving to give the seekers a chance and higher the action!"
+		"chi"			"保持移动 搞点动静"
+	}
+
+	"cmd hide"
+	{
+		"en"			"Displays the model choice menu."
+		"chi"			"显示物品选择菜单"
+	}
+
+	"cmd tp"
+	{
+		"en"			"Toggles the thirdperson view."
+		"chi"			"切换到第三人称视角"
+	}
+
+	"cmd whistle"
+	{
+		"en"			"Play a sound from the hiders position to give the seekers a hint."
+		"chi"			"播放T阵营音效来嘲讽CT阵营"
+	}
+
+	"cmd whoami"
+	{
+		"en"			"Prints the current modelname in chat."
+		"chi"			"于显示目前物品名聊天框"
+	}
+
+	"cmd freeze"
+	{
+		"en"			"Freezes the hider in place."
+		"chi"			"冻结T阵营"
+	}
+
+	"cmd hidehelp"
+	{
+		"en"			"Displays this help menu."
+		"chi"			"显示帮助菜单"
+	}
+
+	"going to switch"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} will be switched to the hider team at the end of the round."
+		"chi"			"{1} 将会在本回合结束后被移动到T阵营"
+	}
+
+	"stop switch"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} will no longer be switched to the hider team at the end of the round."
+		"chi"			"{1} 本回合结束后不会被移动到T阵营啦"
+	}
+
+	"switched ct"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} has been switched to seeker team."
+		"chi"			"{1} 已被移动到CT阵营"
+	}
+
+	"switched t"
+	{
+		"#format"		"{1:s}"
+		"en"			"{1} has been switched to hider team."
+		"chi"			"{1} 已被移动到T阵营"
+	}
+
+	"random"
+	{
+		"en"			"Random model"
+		"chi"			"随即物品"
+	}
+
+	"balancing"
+	{
+		"en"			"Balancing teams..."
+		"chi"			"正在平衡队伍..."
+	}
+
+	"scrambling"
+	{
+		"en"			"Scrambling teams..."
+		"chi"			"争夺队伍中..."
+	}
+
+	"periodic whistle"
+	{
+		"#format"		"{1:s}"
+		"en"			"It was {1}'s time to whistle."
+		"chi"			"轮到{1}吹口哨了"
+	}
+
+	"will whistle"
+	{
+		"#format"		"{1:d}"
+		"en"			"{1} seconds until someone whistles!"
+		"chi"			"还有{1}秒轮到某人吹口哨"
+	}
+
+	"turns until switch"
+	{
+		"#format"		"{1:d}"
+		"en"			"Turns until team switch: {1}"
+		"chi"			"还有{1}回合轮换队伍"
+	}
+}
