@@ -76,25 +76,32 @@ vim lgsm/config-lgsm/csgoserver/csgoserver.cfg
 
 # 服务器的手动更新
 ./csgoserver update
-
-# 权限 --待更新
 ```
 
 ## 安装sourcemod
 
-> sourcemod是一切插件的基础环境，请在服务器安装好后着手安装
+> sourcemod与metamod是插件的基础环境，请在服务器安装好后着手安装
 >
-> 1. 前往sourcemod官网[sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)下载sourcemod Linux版(stable builds)
+> 前往sourcemod官网[sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)下载sourcemod Linux版(stable builds)
 >
-> 2. 前往metamod官网[metamod](https://www.sourcemm.net/downloads.php/?branch=stable) 下载metamod Linux版(stable builds)
->
->    
->
->    
->
->    
->
->    
+> 前往metamod官网[metamod](https://www.sourcemm.net/downloads.php/?branch=stable) 下载metamod Linux版(stable builds)
+
+```sh
+#如果你使用手动安装，可以使用sftp将两个包推上服务器
+sftp csgoserver@服务器ip/域名
+put 包名
+# 直接在命令行下载
+# 注意 以下的命令请以官方下载的本版号为准，解压的时候注意包名
+wget https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6503-linux.tar.gz
+wget https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1144-linux.tar.gz
+
+tar zxvf sourcemod-1.10.0-git6503-linux.tar.gz -C serverfiles/csgo/
+tar zxvf mmsource-1.11.0-git1144-linux.tar.gz -C serverfiles/csgo/
+# 两个文件夹堆叠起来后即完成sourcemod环境的安装
+# 重启服务器
+./csgoserver restart
+# 权限 --待更新
+```
 
 
 
