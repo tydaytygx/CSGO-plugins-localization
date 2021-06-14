@@ -1,3 +1,5 @@
+# 持续更新中 每周五
+
 本仓库适用于各国内CSGO各开服服主，收录了各类开服需要用到的插件，同时提供Linux端的保姆级开服教程，对于插件和教程的问题，欢迎提交issue。
 
 
@@ -21,6 +23,80 @@
 >外部汉化文件请在原有smx已经安装的情况下将外部汉化文件拖入addons/sourcemod/translations下
 >
 >注意：如果插件原有的语言文件下已经有各国语言翻译，可以考虑用编辑器合并
+
+# 外网如何使用Linux平台架设服务器(Source Dedicated Server)
+
+>获取一台云服务器（各大运营商）
+>
+>建议新手选择Ubuntu镜像，本教程将以Ubuntu 20.04作为模板，各发行版略有不同
+
+```sh
+# 首先要更新你的系统
+
+sudo apt update
+sudo apt upgrade
+
+# 安装依赖
+
+sudo dpkg --add-architecture i386; sudo apt update; sudo apt install curl wget file tar bzip2 gzip unzip bsdmainutils python util-linux ca-certificates binutils bc jq tmux netcat lib32gcc1 lib32stdc++6 libsdl2-2.0-0:i386 steamcmd
+
+# 创建一个新的用户csgoserver，当然也可以是其他的
+adduser csgoserver
+
+# 切换到csgoserver用户及其目录下
+su - csgoserver
+
+# 获取linux game server manager脚本并赋予其执行权限并执行，如果中途出错可以拆分分步执行
+wget -O linuxgsm.sh https://linuxgsm.sh && chmod +x linuxgsm.sh && bash linuxgsm.sh csgoserver
+
+# 使用该目录下的csgoserver执行程序执行安装，这一步执行完后会要求你填入token，下一步解释
+./csgoserver install
+
+# 你需要到 Steam 游戏服务器帐户管理页面进行 服务器令牌 申请操作，获取服务器令牌/token
+# 浏览器访问
+# https://steamcommunity.com/dev/managegameservers
+
+# 如果你恰逢/刚好/碰巧 跳过了填入token的一步
+vim lgsm/config-lgsm/csgoserver/csgoserver.cfg
+# 将token填入 gslt=""中
+
+# 在服务器运营商控制面板的防火墙页面，将TCP/UDP 27005与27015 端口开放，这是默认的两个端口
+
+# 开启服务器
+./csgoserver start
+
+# 关闭服务器
+./csgoserver stop
+
+# 关闭服务器
+./csgoserver restart
+
+# 进入服务器控制台
+./csgoserver console
+
+# 服务器的手动更新
+./csgoserver update
+
+# 权限 --待更新
+```
+
+## 安装sourcemod
+
+> sourcemod是一切插件的基础环境，请在服务器安装好后着手安装
+>
+> 1. 前往sourcemod官网[sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)下载sourcemod Linux版(stable builds)
+>
+> 2. 前往metamod官网[metamod](https://www.sourcemm.net/downloads.php/?branch=stable) 下载metamod Linux版(stable builds)
+>
+>    
+>
+>    
+>
+>    
+>
+>    
+
+
 
 # 躲猫猫(prophunt) 
 
