@@ -134,7 +134,6 @@ vim serverfiles/csgo/addons/sourcemod/configs/admins_simple.ini
 
 将你的steamID以
 
-​``` STEAM_x:x:xxxxxxxx
 STEAM_x:x:xxxxxxxx "99:z"
 ```
 
