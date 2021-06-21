@@ -78,6 +78,12 @@ vim lgsm/config-lgsm/csgoserver/csgoserver.cfg
 
 # 服务器的手动更新
 ./csgoserver update
+
+# 自动定时更新
+crontab -e
+*/5 * * * * /home/csgoserver/csgoserver monitor > /dev/null 2>&1
+*/30 * * * * /home/csgoserver/csgoserver update > /dev/null 2>&1
+0 0 * * 0 /home/csgoserver/csgoserver update-lgsm > /dev/null 2>&1
 ```
 
 ## 安装sourcemod
