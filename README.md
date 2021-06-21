@@ -131,11 +131,10 @@ STEAM_x:x:xxxxxxxx
 
 ```shell
 vim serverfiles/csgo/addons/sourcemod/configs/admins_simple.ini
-```
 
 将你的steamID以
 
-``` STEAM_x:x:xxxxxxxx
+​``` STEAM_x:x:xxxxxxxx
 STEAM_x:x:xxxxxxxx "99:z"
 ```
 
@@ -153,7 +152,7 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 源帖 [Simple match plugin for CS:GO](https://forums.alliedmods.net/showthread.php?p=2404215)
 
-> 该插件作者已经停止更新，个人内核汉化
+> 该插件作者已经停止更新，个人内核汉化，并对源码的编译问题进行了处理
 
 # 多人1V1练枪服务器(multi1v1)
 
