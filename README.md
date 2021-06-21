@@ -100,10 +100,38 @@ tar zxvf mmsource-1.11.0-git1144-linux.tar.gz -C serverfiles/csgo/
 # 两个文件夹堆叠起来后即完成sourcemod环境的安装
 # 重启服务器
 ./csgoserver restart
-# 权限 --待更新
+
 ```
 
+### Sourcemod权限部分
 
+首先前往[steamidfinder](https://www.steamidfinder.com/)
+
+获取你的steamID 
+
+```
+STEAM_x:x:xxxxxxxx
+```
+
+如果网站对中文ID有偏差 可以使用64位ID进行查询
+
+什么？你不知道如何查询64位ID
+
+将steam客户端设置--界面--当可用时显示网站地址栏勾选上
+
+查看个人资料--并复制url栏的64位网站再到[steamidfinder](https://www.steamidfinder.com/)进行查询
+
+```shell
+vim serverfiles/csgo/addons/sourcemod/configs/admins_simple.ini
+```
+
+将你的steamID以
+
+``` STEAM_x:x:xxxxxxxx
+STEAM_x:x:xxxxxxxx "99:z"
+```
+
+的格式填入，获取全部权限，重启服务器/重置插件即可拿到!sm/!admin权限（聊天框输入）
 
 # 躲猫猫(prophunt) 
 
