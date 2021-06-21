@@ -2,7 +2,7 @@
 
 本仓库适用于各国内CSGO各开服服主，收录了各类开服需要用到的插件，同时提供Linux端的保姆级开服教程，对于插件和教程的问题，欢迎提交issue。
 
-[![GitHub license](https://img.shields.io/github/license/tydaytygx/CSGO-plugins-localization)](https://github.com/tydaytygx/CSGO-plugins-localization/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/tydaytygx/CSGO-plugins-localization)](https://github.com/tydaytygx/CSGO-plugins-localization/blob/main/LICENSE)[![GitHub stars](https://img.shields.io/github/stars/tydaytygx/CSGO-plugins-localization)](https://github.com/tydaytygx/CSGO-plugins-localization/stargazers)[![GitHub issues](https://img.shields.io/github/issues/tydaytygx/CSGO-plugins-localization)](https://github.com/tydaytygx/CSGO-plugins-localization/issues)
 
 
 
