@@ -127,7 +127,7 @@ STEAM_x:x:xxxxxxxx
 
 将steam客户端设置--界面--当可用时显示网站地址栏勾选上
 
-查看个人资料--并复制url栏的64位网站再到[steamidfinder](https://www.steamidfinder.com/)进行查询
+查看个人资料--并复制url栏的64位ID复制到[steamidfinder](https://www.steamidfinder.com/)进行查询
 
 ```shell
 vim serverfiles/csgo/addons/sourcemod/configs/admins_simple.ini
