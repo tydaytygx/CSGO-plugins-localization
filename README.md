@@ -143,6 +143,8 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 源仓库 [prophunt](https://github.com/olavim/sm-PropHunt) 
 
+![](https://cdn.jsdelivr.net/gh/tydaytygx/NA/csgo躲猫猫.png)
+
 > 该插件作者已经停止更新，个人外部汉化。
 >
 > > 针对CT蹲下鬼畜的问题，可以将插件设置中的1.5倍速调为正常的1倍速。
@@ -165,11 +167,15 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 ![](https://cdn.jsdelivr.net/gh/tydaytygx/NA/CSGO雷姆2.png)
 
+你可以在[gamebanana](https://gamebanana.com/)找到你需要的皮肤/模型，请遵守有关皮肤使用规定。
+
 > 该插件自带多国语言翻译，请移步至源仓库
 
 # 语音图标(Speaker Icon (talk icon like in CS:S))
 
 源仓库 [Speaker Icon](https://github.com/Franc1sco/Franug-Speaker-Icon)
+
+![](https://cdn.jsdelivr.net/gh/tydaytygx/NA/csgo_speak_icon.png)
 
 和CS起源一样风格的语音图标
 
@@ -237,6 +243,8 @@ vim serverfiles/csgo/umc_mapcycle.txt
 以上是使用的例子，一定要确保该地图在服务器的serverfiles/csgo/maps中
 不然换图会失败
 ```
+
+# 舞蹈/跳舞插件
 
 
 
