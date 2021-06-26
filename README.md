@@ -1,4 +1,4 @@
-# 持续更新中 每周？
+# 持续更新中 每周五
 
 本仓库适用于各国内CSGO各开服服主，收录了各类开服需要用到的插件，同时提供Linux端的保姆级开服教程，对于插件和教程的问题，欢迎提交issue。
 
@@ -163,6 +163,8 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 源仓库 [playerskin](https://github.com/safra36/PlayerSkin)
 
+![](https://cdn.jsdelivr.net/gh/tydaytygx/NA/CSGO雷姆2.png)
+
 > 该插件自带多国语言翻译，请移步至源仓库
 
 # 语音图标(Speaker Icon (talk icon like in CS:S))
@@ -235,4 +237,8 @@ vim serverfiles/csgo/umc_mapcycle.txt
 以上是使用的例子，一定要确保该地图在服务器的serverfiles/csgo/maps中
 不然换图会失败
 ```
+
+
+
+
 
