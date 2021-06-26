@@ -139,6 +139,12 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 的格式填入，获取全部权限，重启服务器/重置插件即可拿到!sm/!admin权限（聊天框输入）
 
+## FASTDL部分（文件服务器）
+
+Duck不必, 可以将文件挂载在github并使用cdn加速，省去租用额外服务器与带宽的问题。
+
+---待补充
+
 # 躲猫猫(Prophunt) 
 
 源仓库 [prophunt](https://github.com/olavim/sm-PropHunt) 
@@ -254,9 +260,10 @@ vim serverfiles/csgo/umc_mapcycle.txt
 
 源帖[Fortnite Emotes](https://forums.alliedmods.net/showthread.php?p=2668778)
 
-
+---待补充
 
 # 聊天音效插件(Sanky sounds)
 
 源帖[Sankysound](https://forums.alliedmods.net/showthread.php?p=2689260)
 
+---待补充
