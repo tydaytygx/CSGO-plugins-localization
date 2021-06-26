@@ -173,3 +173,66 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 > 该插件即插即用，请移步至源仓库
 
+# 炒鸡投票换图(UMC)
+
+源仓库 [Speaker Icon](https://github.com/Franc1sco/Franug-Speaker-Icon)
+
+局末换图插件
+
+根据插件需要，你可能还需要一并安装一个maprate插件，不然UMC可能无法正常启动
+
+> 该插件作者已经停止更新，作者对于停止更新表示遗憾并且做了解释。
+>
+> 个人外部汉化
+
+```sh
+#将maprate.smx放入plugins中
+#将chi文件夹放入translation中
+#运行服务器后修改自动生成/原有的umc_mapcycle.txt即可
+vim serverfiles/csgo/umc_mapcycle.txt
+"umc_mapcycle"
+{
+    "Dungeon" //Name this whatever you like
+    {
+
+        "maps_invote"   "20"
+
+        "am_anothernuke"
+        {
+                "weight" "2"
+        }
+
+
+        "am_backrooms"
+        {
+                "weight" "2"
+        }
+
+
+
+        "am_crocodile"
+        {
+                "weight" "2"
+        }
+
+
+        "am_dust2020"
+        {
+                "weight" "2"
+        }
+
+
+        "am_fabrik_sixteen"
+        {
+                "weight" "2"
+        }
+
+
+        "am_impound"
+        {
+                "weight" "2"
+        }
+以上是使用的例子，一定要确保该地图在服务器的serverfiles/csgo/maps中
+不然换图会失败
+```
+
