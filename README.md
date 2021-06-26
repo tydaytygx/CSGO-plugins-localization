@@ -179,6 +179,12 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 和CS起源一样风格的语音图标
 
+> 前置环境：
+>
+> [Dhooks](https://forums.alliedmods.net/showpost.php?p=2588686&postcount=589)
+>
+> [VoiceannounceEX (VoiceHook)](https://forums.alliedmods.net/showthread.php?t=245384)
+>
 > 该插件即插即用，请移步至源仓库
 
 # 炒鸡投票换图(UMC)
