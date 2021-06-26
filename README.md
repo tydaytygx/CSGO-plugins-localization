@@ -1,4 +1,4 @@
-# 持续更新中 每周五
+# 各教程持续更新中 每周N/A
 
 本仓库适用于各国内CSGO各开服服主，收录了各类开服需要用到的插件，同时提供Linux端的保姆级开服教程，对于插件和教程的问题，欢迎提交issue。
 
@@ -139,7 +139,7 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 的格式填入，获取全部权限，重启服务器/重置插件即可拿到!sm/!admin权限（聊天框输入）
 
-# 躲猫猫(prophunt) 
+# 躲猫猫(Prophunt) 
 
 源仓库 [prophunt](https://github.com/olavim/sm-PropHunt) 
 
@@ -149,19 +149,19 @@ STEAM_x:x:xxxxxxxx "99:z"
 >
 > > 针对CT蹲下鬼畜的问题，可以将插件设置中的1.5倍速调为正常的1倍速。
 
-# 满十比赛服(smp)
+# 满十比赛服(Smp)
 
 源帖 [Simple match plugin for CS:GO](https://forums.alliedmods.net/showthread.php?p=2404215)
 
 > 该插件作者已经停止更新，个人内核汉化，并对源码的编译问题进行了处理
 
-# 多人1V1练枪服务器(multi1v1)
+# 多人1V1练枪服务器(Multi1v1)
 
 源仓库 [csgo-multi-1v1](https://github.com/splewis/csgo-multi-1v1)
 
 > 该插件自带多国语言翻译，请移步至源仓库
 
-# 皮肤插件(playerskin)
+# 皮肤插件(Playerskin)
 
 源仓库 [playerskin](https://github.com/safra36/PlayerSkin)
 
@@ -244,9 +244,13 @@ vim serverfiles/csgo/umc_mapcycle.txt
 不然换图会失败
 ```
 
-# 舞蹈/跳舞插件
+# 舞蹈/跳舞插件( Fortnite Emotes Extended version )
+
+源帖[Fortnite Emotes](https://forums.alliedmods.net/showthread.php?p=2668778)
 
 
 
+# 聊天音效插件(Sanky sounds)
 
+源帖[Sankysound](https://forums.alliedmods.net/showthread.php?p=2689260)
 
