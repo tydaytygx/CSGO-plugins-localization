@@ -185,7 +185,7 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 源仓库 [Speaker Icon](https://github.com/Franc1sco/Franug-Speaker-Icon)
 
-局末换图插件
+投票换图插件
 
 根据插件需要，你可能还需要一并安装一个maprate插件，不然UMC可能无法正常启动
 
