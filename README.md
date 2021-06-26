@@ -165,3 +165,11 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 > 该插件自带多国语言翻译，请移步至源仓库
 
+# 语音图标(Speaker Icon (talk icon like in CS:S))
+
+源仓库 [Speaker Icon](https://github.com/Franc1sco/Franug-Speaker-Icon)
+
+和CS起源一样风格的语音图标
+
+> 该插件即插即用，请移步至源仓库
+
