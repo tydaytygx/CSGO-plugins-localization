@@ -179,6 +179,12 @@ sv_allowupload 1
 
 这样就完成了FASTDL的设置（你需要重启服务器或是重载sourcemod）
 
+> 如何检测你的FASTDL文件池是否正确指向
+>
+> 使用客户端时打开开发者控制台（~）
+>
+> 可以查看文件下载进度
+
 # 躲猫猫(Prophunt) 
 
 源仓库 [prophunt](https://github.com/olavim/sm-PropHunt) 
