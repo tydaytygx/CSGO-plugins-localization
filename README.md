@@ -387,5 +387,4 @@ sm_sanksounds_flagtoavoidantispam "z"
 sm_sanksounds_playedsound "3.0"
 
 ```
-
 > 你可以在游戏聊天框中输入!sank来决定是否启用聊天音效或者是查看可用的音效触发条件
