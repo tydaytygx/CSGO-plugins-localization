@@ -203,6 +203,8 @@ sv_allowupload 1
 
 源帖 [Simple match plugin for CS:GO](https://forums.alliedmods.net/showthread.php?p=2404215)
 
+![](https://cdn.jsdelivr.net/gh/tydaytygx/combatserver/combatserver_smp.png)
+
 > 该插件作者已经停止更新，个人内核汉化，并对源码的编译问题进行了处理
 
 # 多人1V1练枪服务器(Multi1v1)
