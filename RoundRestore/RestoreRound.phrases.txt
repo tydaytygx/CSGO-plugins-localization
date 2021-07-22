@@ -1,0 +1,74 @@
+"Phrases"
+{
+	"CannotUseRightNow"
+	{
+		"en"			"You cannot use this command right now."
+		"chi"           "你现在无法使用这条命令了哟"
+	}
+	"UsedCommand"
+	{
+		"en"			"You've already used this command."
+		"chi"           "你已经使用过这条命令了哟"
+	}
+	"TeamUsedCommand"
+	{
+		"en"			"Your team has already used this command."
+		"chi"           "你的队伍已经使用过这条命令了哟"
+	}
+	"T"
+	{
+		"en"			"{yellow}Terrorists{default}"
+		"chi"           "{yellow}T阵营{default}"
+	}
+	"CT"
+	{
+		"en"			"{lightblue}Counter-Terrorists{default}"
+		"chi"			"{lightblue}CT阵营{default}"
+	}
+	"StopRequest"
+	{
+		"#format"		"{1:s},{2:s}"
+		"en"			"{1} requested to restore last round. {2} can type {lightgreen}.stop{default} in chat to restore last round!"
+		"chi"			"{1} 已发出回滚至上一局的请求. {2} 可以在聊天框输入 {lightgreen}.stop{default} 来回滚至上一回合 "
+	}
+	"RoundRestored"
+	{
+		"en"			"Round restored, GLHF!"
+		"chi"			"回合回滚成功，祝各位武运昌隆！"
+	}
+	"UnpauseInst"
+	{
+		"en"			"Type {lightgreen}!unpause{default} to resume the match."
+		"chi"			"输入 {lightgreen}!unpause{default} 来取消比赛暂停."
+	}
+	"Round"
+	{
+		"en"			"Round"
+		"en"			"回合"
+	}
+	"CurrentShort"
+	{
+		"en"			" [Curr]"
+		"chi"			" [本回合]"
+	}
+	"NoBackupRounds"
+	{
+		"en"			"No backup rounds found!"
+		"chi"			"没有回合快照！"
+	}
+	"DeletedBackup"
+	{
+		"en"			"Deleted all backup rounds!"
+		"chi"			"已经删除全部回合快照！"
+	}
+	"TUnpause"
+	{
+		"en"			"The T team wants to unpause. Waiting for the CT team to type {lightgreen}!unpause"
+		"chi"			"T阵营想要取消暂停. 正在等待CT阵营输入 {lightgreen}!unpause"
+	}
+	"CTUnpause"
+	{
+		"en"			"The CT team wants to unpause. Waiting for the T team to type {lightgreen}!unpause"
+		"chi"			"CT阵营想要取消暂停. 正在等待T阵营输入 {lightgreen}!unpause"
+	}
+}
