@@ -98,6 +98,14 @@ crontab -e
 >
 > 前往metamod官网[metamod](https://www.sourcemm.net/downloads.php/?branch=stable) 下载metamod Linux版(stable builds)
 
+## 资源从本地推送到服务器(sftp)
+
+> 强烈建议使用带图形化sftp的命令行工具
+>
+> 例如
+>
+> > mobaxterm
+
 ```sh
 #如果你使用手动安装，可以使用sftp将两个包推上服务器
 sftp csgoserver@服务器ip/域名
