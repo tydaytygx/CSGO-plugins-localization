@@ -6,6 +6,10 @@
 
 
 
+
+
+
+
 ## 安装前的注意事项
 
 >1.如果是标注为内核汉化的插件，此类插件没有写入外部汉化接口，后续的更改请在.sp源码文件中进行，需要安装sourcemod进行重新的编译。
@@ -30,7 +34,7 @@
 
 >获取一台云服务器（各大运营商）
 >
->建议新手选择 Ubuntu 镜像，本教程将以Ubuntu 20.04作为模板，各发行版略有不同
+>建议新手选择Ubuntu镜像，本教程将以Ubuntu 20.04作为模板，各发行版略有不同
 
 ```sh
 # 首先要更新你的系统
@@ -387,4 +391,27 @@ sm_sanksounds_flagtoavoidantispam "z"
 sm_sanksounds_playedsound "3.0"
 
 ```
+
 > 你可以在游戏聊天框中输入!sank来决定是否启用聊天音效或者是查看可用的音效触发条件
+
+# 回合回滚(RoundRestore)
+
+>[源帖RoundRestore](**[RoundRestore](https://forums.alliedmods.net/showthread.php?t=325630)** )
+>
+>用于比赛服的回合重置/回滚插件
+>
+>~~使管理员拥有时间回溯能力~~
+>
+>即插即用，个人外部汉化，已向原作者提交了pr
+>
+>可以前往[源仓库的pull request](https://github.com/Cruze03/CSGO-PugSetup-RoundRestore/pull/2)下载[RestoreRound.phrases.txt](https://github.com/Cruze03/CSGO-PugSetup-RoundRestore/files/5519682/RestoreRound.phrases.txt)
+
+> 食用方法
+>
+> 安装插件后
+>
+> ```sh
+> sm_restoreround # 控制台
+> !sm_restoreround # 聊天框
+> 
+> ```
