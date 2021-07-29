@@ -425,3 +425,47 @@ sm_sanksounds_playedsound "3.0"
 > !sm_restoreround # 聊天框
 > 
 > ```
+
+# 滚动公告(RoundRestore)
+
+>[源帖](https://forums.alliedmods.net/showthread.php?t=155705)
+>
+>作者仍在更新，插件本身支持中文 支持多颜色
+>
+>虽然作者提供了很多的公告提示方法，但是某些广播方式会影响玩家更换武器的操作，没有特别需求建议还是使用 chat 作为广播方法（聊天框滚动提示）
+
+> 食用方法
+>
+> 安装插件后
+>
+> ```sh
+> vim addons/sourcemod/configs/advertisements.txt
+> 
+> ```
+>
+> ```
+> "Advertisements"
+> {
+>     "1"
+>     {
+>         "chat"        "{green}martinwannamaker"
+>     }
+>     "2"
+>     {
+>         "chat"         "新日暮里"
+>     }
+> }
+> ```
+
+# 字体/标签热修复(FixHintColorMessages )
+
+[源帖](https://forums.alliedmods.net/showthread.php?p=2673590#post2673590)
+
+[源仓库](https://github.com/Franc1sco/FixHintColorMessages)
+
+修复插件提示都变成占位符的问题
+
+![](https://cdn.discordapp.com/attachments/335290997317697536/646180265101623338/unknown.png)
+
+
+
