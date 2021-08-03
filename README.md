@@ -204,6 +204,7 @@ sv_allowupload 1
 ![](https://cdn.jsdelivr.net/gh/tydaytygx/NA/csgo躲猫猫.png)
 
 > 该插件作者已经停止更新，个人外部汉化。
+> 针对原版CT方红色遮挡问题，已修改为黑色
 >
 > > 针对CT蹲下鬼畜的问题，可以将插件设置中的1.5倍速调为正常的1倍速。
 
