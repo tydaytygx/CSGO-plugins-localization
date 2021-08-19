@@ -122,7 +122,7 @@ tar zxvf mmsource-1.11.0-git1144-linux.tar.gz -C serverfiles/csgo/
 ./csgoserver restart
 
 ```
-
+# 你知道吗 服务器全局设置位于 serverfiles/csgo/cfg/csgoserver.cfg
 ### Sourcemod权限部分
 
 首先前往[steamidfinder](https://www.steamidfinder.com/)
