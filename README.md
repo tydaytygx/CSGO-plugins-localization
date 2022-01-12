@@ -252,7 +252,7 @@ sv_allowupload 1
 
 # 炒鸡投票换图(UMC)
 
-源仓库 [Speaker Icon](https://github.com/Franc1sco/Franug-Speaker-Icon)
+源仓库 [Speaker Icon](https://github.com/Silenci0/UMC)
 
 投票换图插件
 
