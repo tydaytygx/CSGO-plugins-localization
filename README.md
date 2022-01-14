@@ -97,7 +97,6 @@ crontab -e
 > 前往sourcemod官网[sourcemod](https://www.sourcemod.net/downloads.php?branch=stable)下载sourcemod Linux版(stable builds)
 >
 > 前往metamod官网[metamod](https://www.sourcemm.net/downloads.php/?branch=stable) 下载metamod Linux版(stable builds)
-
 ## 资源从本地推送到服务器(sftp)
 
 > 强烈建议使用带图形化sftp的命令行工具
@@ -121,6 +120,21 @@ tar zxvf mmsource-1.11.0-git1144-linux.tar.gz -C serverfiles/csgo/
 # 重启服务器
 ./csgoserver restart
 
+```
+## 本格的插件安装
++ 将编译好的插件本体 ```.smx``` 文件放入目录
+> serverfiles/csgo/addons/sourcemod/plugins
++ 其中 某些插件的设置会在 这两个目录下
+> serverfiles/csgo/addons/sourcemod/configs
+> serverfiles/csgo/cfg/sourcemod
++ 插件的设置改变不是实时的 你可以使用全局卸载并重新加载的姿势
+```sh
+sm plugins unload_all
+sm plugins refresh
+```
++ 或者 对单个插件进行重载
+```sh
+sm plugins reload 插件名
 ```
 # 你知道吗 服务器全局设置位于 serverfiles/csgo/cfg/csgoserver.cfg
 ### Sourcemod权限部分
