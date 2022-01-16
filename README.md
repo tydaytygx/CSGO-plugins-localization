@@ -107,21 +107,25 @@ crontab -e
 > > mobaxterm
 
 ```sh
-#如果你使用手动安装，可以使用sftp将两个包推上服务器
+# 不使用图形界面进行推送安装包
 sftp csgoserver@服务器ip/域名
 put 包名
 # 直接在命令行下载
 # 注意 以下的命令请以官方下载的本版号为准，解压的时候注意包名
 wget https://sm.alliedmods.net/smdrop/1.10/sourcemod-1.10.0-git6503-linux.tar.gz
 wget https://mms.alliedmods.net/mmsdrop/1.11/mmsource-1.11.0-git1144-linux.tar.gz
-
+```
+# 假如你已经把包放到了服务器上(csgoserver用户目录下) 图形/非图形界面
+## 如果提示权限不足无法解压 可能是上传时没有使用正确的用户连接sftp sftp用户与创建session时的用户一致
+```sh
 tar zxvf sourcemod-1.10.0-git6503-linux.tar.gz -C serverfiles/csgo/
 tar zxvf mmsource-1.11.0-git1144-linux.tar.gz -C serverfiles/csgo/
-# 两个文件夹堆叠起来后即完成sourcemod环境的安装
+```
+# 两个文件夹堆叠起来后即完成sourcemod环境的安装 位于 serverfiles/csgo/
 # 重启服务器
 ./csgoserver restart
 
-```
+
 ## 本格的插件安装
 + 将编译好的插件本体 ```.smx``` 文件放入目录
 > serverfiles/csgo/addons/sourcemod/plugins
