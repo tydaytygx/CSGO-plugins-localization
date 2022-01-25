@@ -364,6 +364,7 @@ vim serverfiles/csgo/cfg/sourcemod/fortnite_emotes_extended.cfg
 > 注意：这款插件中包含比较多的模型和音频文件
 
 # 聊天音效插件(Sanky sounds)
++ 可能会遇到的bug：服务器开启后首张地图无法触发语音 可能是插件没有正常加载，在控制台使用changelevel2 + 地图名 换图后解决该问题
 
 源帖[Sankysound](https://forums.alliedmods.net/showthread.php?p=2689260)
 
