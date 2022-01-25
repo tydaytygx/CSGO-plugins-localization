@@ -133,6 +133,9 @@ tar zxvf mmsource-1.11.0-git1144-linux.tar.gz -C serverfiles/csgo/
 ```sh
 ./csgoserver mods-install
 ```
+>安装
+> + metamodsource
+> + sourcemod
 
 ## 本♂格的插件安装（手动）
 + 将编译好的插件本体 ```.smx``` 文件放入目录
