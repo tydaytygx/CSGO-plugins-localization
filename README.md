@@ -505,6 +505,7 @@ sm_sanksounds_playedsound "3.0"
 ## 僵尸逃跑类
 > 
 [zombie riot](https://forums.alliedmods.net/showthread.php?t=335402)
+
 [zombie escape](https://forums.alliedmods.net/showthread.php?t=326056)
 
 >zombie riot 僵尸暴动 (僵尸由机器人扮演)
