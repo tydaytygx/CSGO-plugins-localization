@@ -84,6 +84,9 @@ vim lgsm/config-lgsm/csgoserver/csgoserver.cfg
 # 服务器的手动更新
 ./csgoserver update
 
+# 命令列表
+./csgoserver
+
 # 自动定时更新
 crontab -e
 */5 * * * * /home/csgoserver/csgoserver monitor > /dev/null 2>&1
@@ -125,8 +128,13 @@ tar zxvf mmsource-1.11.0-git1144-linux.tar.gz -C serverfiles/csgo/
 # 重启服务器
 ./csgoserver restart
 
+## 非本♂格（自动安装）
++ 在/home/csgoserver 目录下 （也就是ssh连进去的那个目录）
+```sh
+./csgoserver mods-install
+```
 
-## 本格的插件安装
+## 本♂格的插件安装（手动）
 + 将编译好的插件本体 ```.smx``` 文件放入目录
 > serverfiles/csgo/addons/sourcemod/plugins
 + 其中 某些插件的设置会在 这两个目录下
