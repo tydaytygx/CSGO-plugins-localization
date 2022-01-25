@@ -502,3 +502,12 @@ sm_sanksounds_playedsound "3.0"
 > [源帖]([源帖](https://forums.alliedmods.net/showthread.php?p=2673590#post2673590))
 > [源仓库](https://github.com/Cruze03/CSGO-PugSetup-RoundRestore)
 
+## 僵尸逃跑类
+> 
+[zombie riot](https://forums.alliedmods.net/showthread.php?t=335402)
+[zombie escape](https://forums.alliedmods.net/showthread.php?t=326056)
+
+>zombie riot 僵尸暴动 (僵尸由机器人扮演)
+
+>zombie escape 僵尸逃跑 (僵尸由玩家扮演) 
+
