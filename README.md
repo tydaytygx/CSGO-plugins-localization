@@ -429,7 +429,7 @@ sm_sanksounds_playedsound "3.0"
 
 > 你可以在游戏聊天框中输入!sank来决定是否启用聊天音效或者是查看可用的音效触发条件
 
-# 回合回滚(RoundRestore)
+# 回合回滚(RoundRestore) 该插件为PUGSETUP的配套插件
 
 >[源帖RoundRestore](**[RoundRestore](https://forums.alliedmods.net/showthread.php?t=325630)** )
 >
