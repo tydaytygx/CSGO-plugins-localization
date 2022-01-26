@@ -520,9 +520,9 @@ sm_sanksounds_playedsound "3.0"
 
 [zombie escape](https://forums.alliedmods.net/showthread.php?t=326056)
 
->zombie riot 僵尸暴动 (僵尸由机器人扮演)
+>zombie riot 僵尸暴动 
 
->zombie escape 僵尸逃跑 (僵尸由玩家扮演) 
+>zombie escape 僵尸逃跑 (更偏向于跑) 
 
 + 两个模式玩家感染后都会变成僵尸
 
