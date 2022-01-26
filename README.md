@@ -522,7 +522,7 @@ sm_sanksounds_playedsound "3.0"
 
 >zombie riot 僵尸暴动 
 
->zombie escape 僵尸逃跑 (更偏向于跑) 
+>zombie escape 僵尸逃跑 (更偏向于跑) 汉化位于本仓库
 
 + 两个模式玩家感染后都会变成僵尸
 
