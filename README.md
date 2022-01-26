@@ -524,3 +524,5 @@ sm_sanksounds_playedsound "3.0"
 
 >zombie escape 僵尸逃跑 (僵尸由玩家扮演) 
 
++ 两个模式玩家感染后都会变成僵尸
+
