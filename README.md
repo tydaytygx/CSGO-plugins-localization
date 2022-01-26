@@ -26,7 +26,7 @@
 
 >内核汉化文件请将smx拖入addons/sourcemod/plugins文件夹下
 >
->外部汉化文件请在原有smx已经安装的情况下将外部汉化文件拖入addons/sourcemod/translations下
+>外部汉化文件请在原有smx已经安装的情况下将外部汉化文件拖入addons/sourcemod/translations/对应插件目录下
 >
 >注意：如果插件原有的语言文件下已经有各国语言翻译，可以考虑用编辑器合并
 
