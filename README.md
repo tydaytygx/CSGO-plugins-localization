@@ -505,12 +505,12 @@ sm_sanksounds_playedsound "3.0"
 ![](https://cdn.discordapp.com/attachments/335290997317697536/646180265101623338/unknown.png)
 
 # 关于更现代化的比赛服插件
-> 一共有两个插件 均支持中文
+> 一共有两个插件 支持中文 
 ![](https://cdn.jsdelivr.net/gh/tydaytygx/combatserver/combatserver_smp.png)
 ## csgo-pug-setup
 > [源仓库](https://github.com/splewis/csgo-pug-setup)
 
-## CSGO-PugSetup-RoundRestore 
+## CSGO-PugSetup-RoundRestore（pug-setup的配套回合回滚插件） 
 > [源帖]([源帖](https://forums.alliedmods.net/showthread.php?p=2673590#post2673590))
 > [源仓库](https://github.com/Cruze03/CSGO-PugSetup-RoundRestore)
 
