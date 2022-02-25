@@ -89,6 +89,7 @@ vim lgsm/config-lgsm/csgoserver/csgoserver.cfg
 
 # 自动定时更新
 crontab -e
+使用编辑器将下面的内容录入crond计划任务中
 */5 * * * * /home/csgoserver/csgoserver monitor > /dev/null 2>&1
 */30 * * * * /home/csgoserver/csgoserver update > /dev/null 2>&1
 0 0 * * 0 /home/csgoserver/csgoserver update-lgsm > /dev/null 2>&1
