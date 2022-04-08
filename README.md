@@ -464,7 +464,7 @@ sm_sanksounds_playedsound "3.0"
 > 
 > ```
 
-# 滚动公告(RoundRestore)
+# 滚动公告(Advertisements)
 
 >[源帖](https://forums.alliedmods.net/showthread.php?t=155705)
 >
