@@ -75,7 +75,7 @@ vim lgsm/config-lgsm/csgoserver/csgoserver.cfg
 # 关闭服务器
 ./csgoserver stop
 
-# 关闭服务器
+# 重启服务器
 ./csgoserver restart
 
 # 进入服务器控制台 注意！ 退出的时候不是按ctrl+C 而是 ctrl + b 然后按 d
