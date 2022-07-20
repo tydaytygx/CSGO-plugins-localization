@@ -100,7 +100,7 @@ crontab -e
 
 > /home/csgoserver/lgsm/config-lgsm/csgoserver/csgoserver.cfg 
 
-目录下的token 如果token没有正常被读取服务器同样无法启动，回到
+文件中的token 如果token没有正常被读取服务器同样无法启动，回到
 
 >https://steamcommunity.com/dev/managegameservers
 查看token使用情况
@@ -113,7 +113,11 @@ sudo chown -R csgoserver:csgoserver /home/csgoserver
 ```
 ## 服务端经过更新后出现循环重启的内核错误(core)
 + 更新sourcemod以及metamod
-+ 使用 > ./csgoserver install 强制更新验证安装完整性
++ 使用 
+
+> ./csgoserver install 
+
+>强制更新验证安装完整性
 
 ## 安装sourcemod
 
