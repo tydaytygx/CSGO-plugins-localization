@@ -94,6 +94,14 @@ crontab -e
 */30 * * * * /home/csgoserver/csgoserver update > /dev/null 2>&1
 0 0 * * 0 /home/csgoserver/csgoserver update-lgsm > /dev/null 2>&1
 ```
+# 常见问题
+## 服务器正常启动后退出
++ 请检查服务器配置 通常需要1核2G（比较勉强） 及以上推荐2核4G的轻量服务器
+## 启动服务器时提示 Information! The current user (csgoserver) does not have ownership of the following files:
++ 这通常是使用非csgoserver用户上传文件导致的权限问题，可以通过有管理员权限的用户对/home/csgoserver下的全部文件进行权限修改
+```sh
+sudo chown -R csgoserver:csgoserver /home/csgoserver
+```
 
 ## 安装sourcemod
 
