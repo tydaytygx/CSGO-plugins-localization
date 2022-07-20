@@ -102,6 +102,9 @@ crontab -e
 ```sh
 sudo chown -R csgoserver:csgoserver /home/csgoserver
 ```
+## 服务端经过更新后出现循环重启的内核错误(core)
++ 更新sourcemod以及metamod
++ 使用 > ./csgoserver install 强制更新验证安装完整性
 
 ## 安装sourcemod
 
