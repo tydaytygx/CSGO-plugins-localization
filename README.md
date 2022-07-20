@@ -96,6 +96,15 @@ crontab -e
 ```
 # 常见问题
 ## 服务器正常启动后退出
++ 请检查 
+
+> /home/csgoserver/lgsm/config-lgsm/csgoserver/csgoserver.cfg 
+
+目录下的token 如果token没有正常被读取服务器同样无法启动，回到
+
+>https://steamcommunity.com/dev/managegameservers
+查看token使用情况
+
 + 请检查服务器配置 通常需要1核2G（比较勉强） 及以上推荐2核4G的轻量服务器
 ## 启动服务器时提示 Information! The current user (csgoserver) does not have ownership of the following files:
 + 这通常是使用非csgoserver用户上传文件导致的权限问题，可以通过有管理员权限的用户对/home/csgoserver下的全部文件进行权限修改
