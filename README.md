@@ -216,6 +216,7 @@ Duck不必, 可以将文件挂载在github并使用cdn加速，省去租用额�
 > 将这些文件夹上传到你新建的仓库，你也可以自己创建这些目录。
 
 > 如何将服务器外部源指向你的文件池
+> 
 
 ```sh
 vim serverfiles/csgo/cfg/csgoserver.cfg
@@ -238,6 +239,10 @@ sv_allowupload 1
 > 使用客户端时打开开发者控制台（~）
 >
 > 可以查看文件下载进度
+
+### 更好的文件直链方案（需要域名以及cloudflare+blaze联动）
++ 免费10G 
+[cloudflare+blaze](https://www.backblaze.com/blog/free-image-hosting-with-cloudflare-transform-rules-and-backblaze-b2/)
 
 # 躲猫猫(Prophunt) 
 
