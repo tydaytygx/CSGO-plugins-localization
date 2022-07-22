@@ -98,9 +98,9 @@ crontab -e
 ## 服务端正常但是加入时出现 lobby问题
 + 如果你是在内网（局域网）架设服务器，请在 /home/csgoserver/serverfiles/csgo/cfg/csgoserver.cfg中修改sv_lan 0 为 sv_lan 1
 ## 服务端的启动设置在哪
-修改
++ 修改
 /home/csgoserver/lgsm/config-lgsm/csgoserver/common.cfg
-模板（不要修改模板，它会被初始化覆盖）位于
++ 模板位于（不要修改模板，它会被初始化覆盖）
 /home/csgoserver/lgsm/config-lgsm/csgoserver/_default.cfg 
 ## 在哪填写token
 /home/csgoserver/lgsm/config-lgsm/csgoserver/csgoserver.cfg 
