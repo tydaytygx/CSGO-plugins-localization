@@ -4,11 +4,7 @@
 
 [![GitHub license](https://img.shields.io/github/license/tydaytygx/CSGO-plugins-localization)](https://github.com/tydaytygx/CSGO-plugins-localization/blob/main/LICENSE)[![GitHub stars](https://img.shields.io/github/stars/tydaytygx/CSGO-plugins-localization)](https://github.com/tydaytygx/CSGO-plugins-localization/stargazers)[![GitHub issues](https://img.shields.io/github/issues/tydaytygx/CSGO-plugins-localization)](https://github.com/tydaytygx/CSGO-plugins-localization/issues)
 
-
-
-
-
-
+## 本教程将使用 Linux game server manager工具 请保持有良好的网络 或是耐心等待
 
 ## 安装前的注意事项
 
