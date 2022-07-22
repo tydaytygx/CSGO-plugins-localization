@@ -388,7 +388,7 @@ vim serverfiles/csgo/umc_mapcycle.txt
         {
                 "weight" "2"
         }
-以上是使用的例子，一定要确保该地图在服务器的serverfiles/csgo/maps中
+以上是使用的例子，一定要确保该地图在服务器的serverfiles/csgo/maps中并且玩家可以从你自定义的直链服务器中获取地图
 不然换图会失败
 ```
 
