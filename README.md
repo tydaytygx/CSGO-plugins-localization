@@ -214,15 +214,15 @@ vim serverfiles/csgo/addons/sourcemod/configs/admins_simple.ini
 STEAM_x:x:xxxxxxxx "99:z"
 ```
 
-的格式填入，获取全部权限，重启服务器/重置插件即可拿到!sm/!admin权限（聊天框输入）
+的格式填入，获取全部权限，重启服务器/重置插件即可拿到 !sm 或者 !admin 权限（聊天框命令）
 
 ## FASTDL部分（文件服务器）
 
-### 更好的文件直链方案（需要域名以及cloudflare+blaze联动）
+### 1. 更好的文件直链方案（需要域名以及cloudflare+blaze联动）
 + 免费10G 
 [cloudflare+blaze](https://www.backblaze.com/blog/free-image-hosting-with-cloudflare-transform-rules-and-backblaze-b2/)
 
-+ 或者Duck不必, 可以将文件挂载在github并使用cdn加速，省去租用额外服务器与带宽的问题。
++ 2. 或者Duck不必, 可以将文件挂载在github并使用cdn加速，省去租用额外服务器与带宽的问题。
 
 许多教程中提到了FASTDL，其实就是一个直链的文件池，以下本教程中提出的方案（现在也是我服务器的方案）
 
