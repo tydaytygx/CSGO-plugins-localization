@@ -95,8 +95,8 @@ crontab -e
 + 如果你是在内网（局域网）架设服务器，请在 /home/csgoserver/serverfiles/csgo/cfg/csgoserver.cfg中修改sv_lan 0 为 sv_lan 1
 ## 服务端的启动设置在哪
 + 修改
-/home/csgoserver/lgsm/config-lgsm/csgoserver/common.cfg
-+ 模板位于（不要修改模板，它会被初始化覆盖）
+/home/csgoserver/lgsm/config-lgsm/csgoserver/common.cfg 将需要修改的启动项从模板复制到该文件进行修改
++ 模板文件位于（不要修改模板文件，它会被初始化覆盖）
 /home/csgoserver/lgsm/config-lgsm/csgoserver/_default.cfg 
 ## 在哪填写token
 /home/csgoserver/lgsm/config-lgsm/csgoserver/csgoserver.cfg 
