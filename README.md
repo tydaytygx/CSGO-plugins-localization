@@ -221,8 +221,12 @@ STEAM_x:x:xxxxxxxx "99:z"
 ### 1. 更好的文件直链方案（需要域名以及cloudflare+blaze联动）
 + 免费10G 
 [cloudflare+blaze](https://www.backblaze.com/blog/free-image-hosting-with-cloudflare-transform-rules-and-backblaze-b2/)
++ 建好直链仓库后将直链头添加到 位于(serverfiles/csgo/cfg/csgoserver.cfg)
++ > sv_downloadurl "直链头"
++ 该方案正在火急翻译中
 
-+ 2. 或者Duck不必, 可以将文件挂载在github并使用cdn加速，省去租用额外服务器与带宽的问题。
+### 2. 普通的仓库直链方案（单体包大小有限制20M，最大仓库CDN有限制50M，多图多资源建议使用方案1）
++ 或者Duck不必, 可以将文件挂载在github并使用cdn加速，省去租用额外服务器与带宽的问题。
 
 许多教程中提到了FASTDL，其实就是一个直链的文件池，以下本教程中提出的方案（现在也是我服务器的方案）
 
