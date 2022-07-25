@@ -218,7 +218,11 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 ## FASTDL部分（文件服务器）
 
-Duck不必, 可以将文件挂载在github并使用cdn加速，省去租用额外服务器与带宽的问题。
+### 更好的文件直链方案（需要域名以及cloudflare+blaze联动）
++ 免费10G 
+[cloudflare+blaze](https://www.backblaze.com/blog/free-image-hosting-with-cloudflare-transform-rules-and-backblaze-b2/)
+
++ 或者Duck不必, 可以将文件挂载在github并使用cdn加速，省去租用额外服务器与带宽的问题。
 
 许多教程中提到了FASTDL，其实就是一个直链的文件池，以下本教程中提出的方案（现在也是我服务器的方案）
 
@@ -263,9 +267,7 @@ sv_allowupload 1
 >
 > 可以查看文件下载进度
 
-### 更好的文件直链方案（需要域名以及cloudflare+blaze联动）
-+ 免费10G 
-[cloudflare+blaze](https://www.backblaze.com/blog/free-image-hosting-with-cloudflare-transform-rules-and-backblaze-b2/)
+
 
 # 躲猫猫(Prophunt) 
 
