@@ -234,9 +234,10 @@ STEAM_x:x:xxxxxxxx "99:z"
 
 + 格式为 
 
-```sv_downloadurl "url（去掉文件名）"
-++sv_allowdownload 1
-++sv_allowupload 1 
+```sh
+sv_downloadurl "url（去掉文件名）"
+sv_allowdownload 1
+sv_allowupload 1 
 ```
 ---
 
