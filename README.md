@@ -225,7 +225,7 @@ STEAM_x:x:xxxxxxxx "99:z"
 + > sv_downloadurl "仓库直链"
 + 该方案正在火急翻译中
 
-+ 如果你没有域名 可以简化这个操作（当然 这样没有cloudflare CDN的加持）
++ 如果你没有域名 可以简化这个操作--仅使用桶内提供的friendlyURL（去掉文件名）作为你的FASTDL链（当然 这样没有cloudflare CDN的加持）
 + 注册[B2storage](https://www.backblaze.com/b2/sign-up.html?referrer=nopref)
 
 + 在My Account我的账户--Buckets--Create a Bucket--创建时将private改为public 否则无法实现公共直链
