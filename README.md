@@ -219,7 +219,7 @@ STEAM_x:x:xxxxxxxx "99:z"
 ## FASTDL部分（文件服务器）
 
 ### 1. 更好的文件直链方案（需要域名以及cloudflare+blaze联动）
-+ 免费10G 如果你有域名 可以参考下方的文章
++ 免费10G 如果你有域名 可以参考这篇文章
 [cloudflare+blaze](https://www.backblaze.com/blog/free-image-hosting-with-cloudflare-transform-rules-and-backblaze-b2/)
 + 建好直链仓库后将直链头添加到 位于(serverfiles/csgo/cfg/csgoserver.cfg)
 + > sv_downloadurl "仓库直链"
